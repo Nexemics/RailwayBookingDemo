@@ -1,0 +1,161 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body 
+{
+	font-size: 120%;
+	background: #F8F8FF;
+}
+.header 
+{
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 2px solid #5F9EA0;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content 
+{
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 2px solid #5F9EA0;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group 
+{
+	margin: 10px 0px 10px 0px;
+}
+.input-group label 
+{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input 
+{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 2px solid gray;
+}
+.btn 
+{
+	padding: 10px;
+	font-size: 15px;
+	color: #ffffff;
+	background: #5F9EA0;
+	border: 2px solid #5F9EA0;
+	border-radius: 5px;
+	width: 20%;
+}
+.btn:hover
+{
+	background-color: #ffffff;
+	color: #5F9EA0;
+	border: 2px solid #5F9EA0;
+	border-radius: 5px;
+}
+.btn1
+{
+	padding: 10px;
+	font-size: 15px;
+	color: #ffffff;
+	background: #ce6051;
+	border: 2px solid #ce6051;
+	border-radius: 5px;
+	width: 20%;
+}
+.btn1 a
+{
+	text-decoration: none;
+}
+.btn1 a:visited
+{
+	color: #ffffff;
+}
+.error 
+{
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 2px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success 
+{
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 2px solid #3c763d;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 8px 0;
+	text-align:center;	
+}
+.welcome 
+{
+	color: #1a5050; 
+	background: #dff0d8; 
+	border: 2px solid #5F9EA0;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 8px 0;
+	text-align: center;	
+}
+.options
+{
+	background-color: #5F9EA0;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	cursor: pointer;
+}
+.bookbtn
+{
+	background: #5F9EA0;
+	color: #ffffff;
+	border-radius: 4px;
+}
+.bookbtn:hover
+{
+	background-color: #ffffff;
+	color: #5F9EA0;
+	border: 2px solid #5F9EA0;
+	border-radius: 4px;
+}
+.selectbox select
+{
+	background: transparent;
+	font-size: 16px;
+	-webkit-appearance: none;
+	height: 43px;
+	width:98%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 2px solid gray;
+}
+.table
+{
+	border-width:0;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
